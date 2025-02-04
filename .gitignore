@@ -1,0 +1,13 @@
+.ipynb_checkpoints/
+.DS_Store
+__pycache__
+python_1/unit_3/a_file.txt
+python_1/unit_4/marvel-wikia-data-reduced.csv
+python_2/unit_3/file_2.txt
+python_2/unit_3/files_folder/compressed_file.zip
+python_2/unit_3/files_folder/dec_tree_model.pickle
+python_2/unit_3/files_folder/dest_file.txt
+python_2/unit_3/files_folder/marvel.db
+python_2/unit_3/files_folder/test_file.txt
+python_2/unit_3/files_folder/test_file_2.txt
+python_2/unit_3/mem_data/

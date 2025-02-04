@@ -1,0 +1,19 @@
+{
+    "cSpell.language": "ca,en",
+    "cSpell.words": [
+        "fibonacci",
+        "jupyter",
+        "matplotlib",
+        "numpy",
+        "tupla"
+    ],
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.tabSize": 4,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8",
+        "editor.formatOnSave": true
+    }
+}

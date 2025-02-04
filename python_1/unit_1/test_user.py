@@ -1,14 +1,14 @@
 import hashlib
 
-seed = 'Programacion Python para Data Science'
+seed = 'Programació Python per a Data Science'
 
 if __name__ == "__main__":
     try:
-        dni = raw_input('Introduce tu DNI o NIE (sin letra):')
+        dni = raw_input('Introdueix el teu DNI o NIE (sense la lletra):')
     except ValueError:
-        raise SystemExit('Error al introducir el DNI')
+        raise SystemExit('Error en introduir el DNI')
 
     digest = hashlib.sha224('.'.join(seed.split())+dni).hexdigest()
     with open('prog_datasci_1.txt', 'w') as output:
         output.write("%s %s\n" % (dni, digest))
-        print 'Archivo prog_datasci_1.txt generado'
+        print('Fitxer prog_datasci_1.txt generat')

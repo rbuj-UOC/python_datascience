@@ -1,0 +1,14 @@
+services:
+  notebook:
+    build: .
+    image: my-notebook
+    container_name: my-notebook
+    volumes:
+      - ./python_1:/home/jovyan/python_1
+      - ./python_2:/home/jovyan/python_2
+      - work:/home/jovyan/work
+    ports:
+      - 8888:8888
+
+volumes:
+  work:
