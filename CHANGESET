@@ -1,0 +1,9 @@
+find . -name "IB*.ipynb" -type f -exec rm {} \;
+find . -name pdf -type d -exec rm -fr {} \;
+find . -name .ipynb_checkpoints -type d -exec rm -fr {} \;
+
+find . -name "*.md" -o -name "*.ipynb" -type f -exec sed -i '' 's/Repositori/Dipòsit/g' {} \;
+find . -name "*.md" -o -name "*.ipynb" -type f -exec sed -i '' 's/llibreria/biblioteca/g' {} \;
+find . -name "*.md" -o -name "*.ipynb" -type f -exec sed -i '' 's/Llibreria/Biblioteca/g' {} \;
+find . -name "*.md" -o -name "*.ipynb" -type f -exec sed -i '' 's/Llibreries/Biblioteques/g' {} \;
+find . -name "*.md" -o -name "*.ipynb" -type f -exec sed -i '' 's/llibreries/biblioteques/g' {} \;
