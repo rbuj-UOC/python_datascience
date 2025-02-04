@@ -1,7 +1,4 @@
-# Unit 3 - Flow control tools and functions
+# Programació Python para Data Science (UOC) - Unitat 3
 
-This is the repository of the content for unit 3 (Estructures de control i funcions en Python / Estructuras de control y funciones en Python) of the course:
-* 22.401 - Fonaments de Programació
-* 22.501 - Fundamentos de Programación
-
+Codi de la Unitat 3 de l'assignatura Programació Python per Data Science del [Màster Universitari de Ciència de Dades (Data Science)](http://estudis.uoc.edu/ca/masters-universitaris/data-science/presentacio).
 

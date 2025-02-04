@@ -1,7 +1,4 @@
-# Unit 7 - Data preprocessing
+# Programació Python para Data Science (UOC) - Unitat 7
 
-This is the repository of the content for unit 7 (Introducció a l'anàlisi de dades en Python / Introducción al análisis de datos en Python) of the course:
-* 22.401 - Fonaments de Programació
-* 22.501 - Fundamentos de Programación
-
+Codi de la Unitat 7 de l'assignatura Programació Python per Data Science del [Màster Universitari de Ciència de Dades (Data Science)](http://estudis.uoc.edu/ca/masters-universitaris/data-science/presentacio).
 

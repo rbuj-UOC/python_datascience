@@ -1,7 +1,4 @@
-# Unit 8 - Data visualization
+# Programació Python para Data Science (UOC) - Unitat 8
 
-This is the repository of the content for unit 8 (Visualització de dades en Python / Visualización de datos en Python) of the course:
-* 22.401 - Fonaments de Programació
-* 22.501 - Fundamentos de Programación
-
+Codi de la Unitat 8 de l'assignatura Programació Python per Data Science del [Màster Universitari de Ciència de Dades (Data Science)](http://estudis.uoc.edu/ca/masters-universitaris/data-science/presentacio).
 

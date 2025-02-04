@@ -1,7 +1,4 @@
-# Unit 2 - Introduction to Python
+# Programació Python para Data Science (UOC) - Unitat 2
 
-This is the repository of the content for unit 2 (Breu introducció a la programació en Python / Breve introducción a la programación en Python) of the course:
-* 22.401 - Fonaments de Programació
-* 22.501 - Fundamentos de Programación
-
+Codi de la Unitat 2 de l'assignatura Programació Python per Data Science del [Màster Universitari de Ciència de Dades (Data Science)](http://estudis.uoc.edu/ca/masters-universitaris/data-science/presentacio).
 

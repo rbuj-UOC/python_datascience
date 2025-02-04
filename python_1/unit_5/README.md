@@ -1,7 +1,9 @@
-# Unit 5 - Data collection
+# Programació Python para Data Science (UOC) - Unitat 5
 
-This is the repository of the content for unit 5 (Captura de dades en Python / Captura de datos en Python) of the course:
-* 22.401 - Fonaments de Programació
-* 22.501 - Fundamentos de Programación
+Codi de la Unitat 5 de l'assignatura Fonaments de programació. Aquest repositori conté:
 
+* Un notebook amb explicacions teòriques (`prog_datasci_5_api.ipynb`).
+* Un notebook amb la PAC5 de l'assignatura (`prog_datasci_5_api_entrega.ipynb`).
+* Un notebook amb exercicis resolts per a practicar els conceptes explicats (`prog_datasci_5_api_exercicisResolts.ipynb`).
+* Un notebook amb un tutorial de creació d'expressions xpath per a programar els parsers de crawlers (`prog_datasci_5_api_tutorial_scrapy.ipynb`).
 
