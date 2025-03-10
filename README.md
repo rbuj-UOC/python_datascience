@@ -61,19 +61,31 @@ Es mostra una llista amb els tipus d'entorn: `Venv` o `Conda`. Seleccioneu `Cond
 
 ![](./img/create_environment_dropdown.avif)
 
-L'ordre mostra una llista de versions de Python que es poden utilitzar al vostre projecte.
+L'ordre mostra una llista de versions de Python que es poden utilitzar al vostre projecte. Seleccioneu Python 3.11:
 
 ![](./img/conda_environment_python_versions.avif)
 
-## 2.3. Instal·lació de les biblioteques necessaries
+S'instal·laran automàticament les biblioteques definides al fitxer [environment.yml](environment.yml).
 
-Instal·leu les biblioteques addicionals necessàries, per a fer-ho, dins de VS Code obriu un terminal i executeu les següents ordres:
+## 2.3. Com crear un fitxer environment.yml nou
+
+Elimineu el fitxer environment.yml i la carpeta .conda:
+```
+rm -fr environment.yml .conda
+```
+
+Repetiu el pas anterior pe crear un entorn virtual nou amb la versió de Python que vulgueu, després obriu un terminal dins de VS Code i executeu les ordres següents:
 
 ```
 conda install biopython chardet flake8 ipykernel matplotlib numpy pandas pycodestyle scipy -q -y
 conda install conda-forge::tweepy conda-forge::googlemaps geoplotlib networkx python-louvain requests scikit-learn scrapy seaborn sympy -q -y
 pip install pycodestyle_magic
 pip install line_profiler
+```
+
+Ara ja podeu bolcar les biblioteques instal·lades amb conda amb la següent ordre:
+```
+conda export > environment.yml
 ```
 
 # 3. Execució dels notebooks
@@ -104,4 +116,4 @@ Un cop construit el contenidor, es podrà aixecar amb la següent ordre:
 docker-compose up
 ```
 
-Obriu el vostre navegador web preferit, i enganxeu a la barra d'adreces l'url amb el token d'autenticació.
+Obriu l'url [http://localhost:8888/lab/](http://localhost:8888/lab/)

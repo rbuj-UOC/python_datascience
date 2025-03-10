@@ -4,11 +4,17 @@ services:
     image: my-notebook
     container_name: my-notebook
     volumes:
-      - ./python_1:/home/jovyan/python_1
-      - ./python_2:/home/jovyan/python_2
-      - work:/home/jovyan/work
+      - ./python_1:/app/work/python_1
+      - ./python_2:/app/work/python_2
+    command: sh -c "conda run -n uoc \
+      jupyter lab \
+        --ip=* \
+        --port 8888 \
+        --no-browser \
+        --allow-root \
+        --notebook-dir=/app/work \
+        --preferred-dir=/app/work \
+        --NotebookApp.token=''"
     ports:
       - 8888:8888
-
-volumes:
-  work:
+    restart: always
