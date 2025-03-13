@@ -1,0 +1,11 @@
+LICENSE.cc-by-sa.md
+README.md
+docker-compose.yaml
+environment.yml
+img/
+python_1/
+python_2/
+start-languagetool.sh
+.conda/
+.git/
+.vscode/

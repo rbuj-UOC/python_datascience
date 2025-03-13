@@ -1,0 +1,42 @@
+name: uoc
+channels:
+  - conda-forge
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - altair
+  - autopep8
+  - biopython
+  - bokeh
+  - bs4
+  - flake8
+  - geodatasets
+  - geopandas
+  - geoplotlib
+  - geopy
+  - googlemaps
+  - ipykernel
+  - ipywidgets
+  - jupyterlab
+  - matplotlib
+  - networkx
+  - numpy
+  - pandas
+  - pip
+  - plotnine
+  - pycodestyle
+  - pyglet
+  - python=3.11
+  - python-dotenv
+  - python-louvain
+  - requests
+  - scikit-learn
+  - scipy
+  - scrapy
+  - seaborn
+  - spotipy
+  - pip:
+      - line-profiler
+      - pycodestyle-magic
+      - watermark
