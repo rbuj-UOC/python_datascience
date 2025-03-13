@@ -1,0 +1,31 @@
+{
+    "cSpell.language": "ca,en",
+    "cSpell.words": [
+        "fibonacci",
+        "iterador",
+        "jupyter",
+        "matplotlib",
+        "numpy",
+        "tupla"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "ruff.lineLength": 80,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.tabSize": 4,
+    "editor.wordWrap": "bounded",
+    "languageToolLinter.languageTool.language": "ca-ES",
+    "languageToolLinter.lintOnChange": true,
+    "languageToolLinter.lintOnOpen": true,
+    "languageToolLinter.plainText.enabled": true,
+    "languageToolLinter.plainText.languageIds": [
+        "plaintext",
+        "python",
+        "markdown"
+    ],
+    "notebook.output.textLineLimit": 500,
+}
